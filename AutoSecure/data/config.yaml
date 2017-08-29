@@ -1,0 +1,23 @@
+metasploit:
+   user: "msf_user"
+   password: "msf_pwd"
+
+nessus:
+   url: "https://localhost:8834"
+   api_akey: "ApiAccessKey"
+   api_skey: "ApiSecretKey"
+   report_dir: "<TemplatePathDir>"
+   scans:
+      BasicNetworkScan: "AutoBasicNetworkScan"
+      AuditCloudInfraStructure: "TBD"
+      WebApplicationTests: "AutoWebApplicationTests"
+      BashShellShockDetection: "AutoBashShellShockDetection"
+
+input_hosts: "IPs Seperated by comma(',')"
+
+mysql:
+   host: 'localhost'
+   port: '3306'
+   user: 'user_name'
+   password: 'user@pwd'
+   db: 'db_name'
